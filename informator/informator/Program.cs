@@ -13,6 +13,7 @@ namespace informator
         {
             OutputResult("Производитель ПЭВМ:", GetHardwareInfo("Win32_ComputerSystem", "Manufacturer"));
             OutputResult("Модель ПЭВМ:", GetHardwareInfo("Win32_ComputerSystem", "Model"));
+            OutputResult("Имя ПЭВМ:", GetHardwareInfo("Win32_ComputerSystem", "Name"));
             Console.ReadKey();
         }
 
