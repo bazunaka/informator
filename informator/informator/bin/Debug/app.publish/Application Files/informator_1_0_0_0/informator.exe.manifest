@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="informator.exe" version="1.0.0.0" publicKeyToken="22caea287a287cfb" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="informator" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="informator.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Параметры манифеста UAC
+          При необходимости изменить уровень управления учетными записями Windows замените 
+          узел requestedExecutionLevel одним из следующих значений.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+        Если вы хотите использовать виртуализацию файлов и реестра для обратной
+             совместимости, удалите узел requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="informator.exe" size="6616">
+      <assemblyIdentity name="informator" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>vh4DsLaHY3SpBHTcJyq058iqbkT5T+uB606uYOlJrsQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="informator.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6N7MliNbVJSIAIPrecIshMbZ7zEoKLr5SQvud4LDUOw=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=BAZUNAKAPC\bazunaka" issuerKeyHash="1a637a0e191d49998223745735df048e1fa7a237" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>gN4j7CuL75xPyNMUuKfetLQmjbWrffCz4WDijbvaDOw=</DigestValue></Reference></SignedInfo><SignatureValue>RipgxVhMtfTezXNXT//cNiZeWxNKP4fbghAGDi1V8bUk+dwdW1yBH2NxU3v4KrNHGtuXYlK5vcMlKTY9q/ubs30sx9U+Zzjb4Qcv0yndqSaXHgRbuzCFwqEY2iyTIjK/xGL2WDrMc3SL9CRTlWvXDOSklz1QUm0OpH79aL5iCgE=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>0jONyug4UjHB0LWD0MO7JcplnrGcakzSMgOMUXG9NNg0hZK+/ObbeVnJb2eKeMSUbtqv4uPjUWcTPS/aRQ+sTDws4QvtgUTmOvSXnATBNNfYPPzEEH8RCBN6Ek9a9uwNVUQHbtPxVqjziPJO4lXX7bpFj/mJJQ/xUotPl27G+70=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="ec0cdabb8de260e1b3f07dabb58d26b4b4dea7b814d3c84f9cef8b2bec23de80" Description="" Url=""><as:assemblyIdentity name="informator.exe" version="1.0.0.0" publicKeyToken="22caea287a287cfb" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=BAZUNAKAPC\bazunaka</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>XaHSvByymXstkYA/UO08MGY1gz+Bv/1UZFqfN2+2Das=</DigestValue></Reference></SignedInfo><SignatureValue>epBYHTDCYWxm6Y0Jl4rnWI1rmL1p+nHRufLqpsTCG7k1EksT3keAPqTMOP7544ZNHKDp7mJ4BEA/YUh+uZLoEgMY+8sBCPMe2dF7IfafhA/WSG7cIl0HCJnw3rQIeTxWirFTd9CyqRMPeiyvYlR2iNJXZMavhvi3a3qMgtqvPGk=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>0jONyug4UjHB0LWD0MO7JcplnrGcakzSMgOMUXG9NNg0hZK+/ObbeVnJb2eKeMSUbtqv4uPjUWcTPS/aRQ+sTDws4QvtgUTmOvSXnATBNNfYPPzEEH8RCBN6Ek9a9uwNVUQHbtPxVqjziPJO4lXX7bpFj/mJJQ/xUotPl27G+70=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB5TCCAU6gAwIBAgIQGSerRNcKVIdM6eSt6u5sDjANBgkqhkiG9w0BAQsFADAxMS8wLQYDVQQDHiYAQgBBAFoAVQBOAEEASwBBAFAAQwBcAGIAYQB6AHUAbgBhAGsAYTAeFw0xOTA4MzExMjAwNTNaFw0yMDA4MzAxODAwNTNaMDExLzAtBgNVBAMeJgBCAEEAWgBVAE4AQQBLAEEAUABDAFwAYgBhAHoAdQBuAGEAawBhMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSM43K6DhSMcHQtYPQw7slymWesZxqTNIyA4xRcb002DSFkr785tt5WclvZ4p4xJRu2q/i4+NRZxM9L9pFD6xMPCzhC+2BROY69JecBME019g8/MQQfxEIE3oST1r27A1VRAdu0/FWqPOI8k7iVdftukWP+YklD/FSi0+Xbsb7vQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAKn9oYVbxSGpKJi/p0fAt2wNt0a5Jo1LWvzoBTKQHhT3goob/uOFpfkEDXUr7qDfVPK4HbvSd7ob7HhnlyHP7QiXFMaovyD6z4rMqD12rVaSjEbQFhsjp37udTVDomxiu7ZP3ZGaegUypfQopRlyzhdHjkE9VFMufBbuCaYlCgxT</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

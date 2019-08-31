@@ -1,0 +1,10 @@
+G:\projectsC\informator\informator\informator\bin\Debug\informator.exe.config
+G:\projectsC\informator\informator\informator\bin\Debug\informator.exe
+G:\projectsC\informator\informator\informator\bin\Debug\informator.pdb
+G:\projectsC\informator\informator\informator\obj\Debug\informator.csprojResolveAssemblyReference.cache
+G:\projectsC\informator\informator\informator\obj\Debug\informator.exe
+G:\projectsC\informator\informator\informator\obj\Debug\informator.pdb
+G:\projectsC\informator\informator\informator\bin\Debug\informator.exe.manifest
+G:\projectsC\informator\informator\informator\bin\Debug\informator.application
+G:\projectsC\informator\informator\informator\obj\Debug\informator.exe.manifest
+G:\projectsC\informator\informator\informator\obj\Debug\informator.application
