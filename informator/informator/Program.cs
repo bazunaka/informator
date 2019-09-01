@@ -11,6 +11,12 @@ namespace informator
     {
         static void Main(string[] args)
         {
+            Console.WriteLine(hello());
+            List<string> menu = new List<string>() { "1-Аппаратное обеспечение", "2-Операционная система" };
+            foreach (string i in menu)
+            {
+                Console.WriteLine(i);
+            }
             OutputResult("Производитель ПЭВМ:", GetHardwareInfo("Win32_ComputerSystem", "Manufacturer"));
             OutputResult("Модель ПЭВМ:", GetHardwareInfo("Win32_ComputerSystem", "Model"));
             OutputResult("Имя ПЭВМ:", GetHardwareInfo("Win32_ComputerSystem", "Name"));
@@ -52,6 +58,13 @@ namespace informator
                 for (int i = 0; i < result.Count; ++i)
                     Console.WriteLine(result[i]);
             }
+        }
+
+        private static string hello()
+        {
+            string hello = "Информатор v1.0.0.2\n";
+            string select = "Выберите необходимую информацию из списка:\n";
+            return hello + select;
         }
     }
 }
