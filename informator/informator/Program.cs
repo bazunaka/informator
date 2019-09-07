@@ -20,14 +20,9 @@ namespace informator
 
             int select_menu = Convert.ToInt16(Console.ReadLine());
 
-            OutputResult("Производитель ПЭВМ:", GetHardwareInfo("Win32_ComputerSystem", "Manufacturer"));
-            OutputResult("Модель ПЭВМ:", GetHardwareInfo("Win32_ComputerSystem", "Model"));
-            OutputResult("Имя ПЭВМ:", GetHardwareInfo("Win32_ComputerSystem", "Name"));
-            OutputResult("Операционная система:", GetHardwareInfo("Win32_OperatingSystem", "Caption"));
-            OutputResult("Серийный номер ПЭВМ:", GetHardwareInfo("Win32_BIOS", "SerialNumber"));
-            OutputResult("Серийный номер ЖД:", GetHardwareInfo("Win32_DiskDrive", "SerialNumber")); 
-            OutputResult("Серийный номер ЖД:", GetHardwareInfo("Win32_DiskDrive", "SerialNumber"));
-            Console.ReadKey();
+            out_info(select_menu);
+
+            //Console.ReadLine(); 
         }
 
         private static List<string> GetHardwareInfo(string WIN32_Class, string ClassItemField)
@@ -68,6 +63,29 @@ namespace informator
             string hello = "Информатор v1.0.0.2\n";
             string select = "Выберите необходимую информацию из списка:\n";
             return hello + select;
+        }
+
+        private static void out_info (int select)
+        {
+            switch (select)
+            {
+                case 1:
+                    OutputResult("Производитель ПЭВМ:", GetHardwareInfo("Win32_ComputerSystem", "Manufacturer"));
+                    OutputResult("Модель ПЭВМ:", GetHardwareInfo("Win32_ComputerSystem", "Model"));
+                    OutputResult("Серийный номер ПЭВМ:", GetHardwareInfo("Win32_BIOS", "SerialNumber"));
+                    OutputResult("Серийный номер ЖД:", GetHardwareInfo("Win32_DiskDrive", "SerialNumber"));
+                    OutputResult("Клавиатура:", GetHardwareInfo("Win32_Keyboard", "Name"));
+                    Console.WriteLine(hello());
+                    return;
+                case 2:
+                    OutputResult("Имя ПЭВМ:", GetHardwareInfo("Win32_ComputerSystem", "Name"));
+                    OutputResult("Операционная система:", GetHardwareInfo("Win32_OperatingSystem", "Caption"));
+                    Console.WriteLine(hello());
+                    return;
+                case 0:
+                    Environment.Exit(0);
+                    break;
+            }
         }
     }
 }
