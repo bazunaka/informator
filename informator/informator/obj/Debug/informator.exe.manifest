@@ -15,14 +15,14 @@
       <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
         <!--
           Параметры манифеста UAC
-          При необходимости изменить уровень управления учетными записями Windows замените 
+          Если нужно изменить уровень контроля учетных записей Windows, замените 
           узел requestedExecutionLevel одним из следующих значений.
 
         <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
         <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
         <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
 
-        Если вы хотите использовать виртуализацию файлов и реестра для обратной
+        Если нужно использовать виртуализацию файлов и реестра для обратной
              совместимости, удалите узел requestedExecutionLevel.
     -->
         <requestedExecutionLevel level="asInvoker" uiAccess="false" />
@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="informator.exe" size="6616">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="informator.exe" size="7128">
       <assemblyIdentity name="informator" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>MnStGfCp3/LijhU7tVJLVl4E4TwIJEMq5eaUQd+MB+c=</dsig:DigestValue>
+        <dsig:DigestValue>ChIQujZder37NKfvFn9J9cihP0nB7mijTNpaUjqBjZg=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

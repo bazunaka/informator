@@ -8,3 +8,14 @@ G:\projectsC\informator\informator\informator\bin\Debug\informator.exe.manifest
 G:\projectsC\informator\informator\informator\bin\Debug\informator.application
 G:\projectsC\informator\informator\informator\obj\Debug\informator.exe.manifest
 G:\projectsC\informator\informator\informator\obj\Debug\informator.application
+C:\Users\bazunaka\Documents\GitHub\informator\informator\informator\bin\Debug\informator.exe.config
+C:\Users\bazunaka\Documents\GitHub\informator\informator\informator\bin\Debug\informator.exe.manifest
+C:\Users\bazunaka\Documents\GitHub\informator\informator\informator\bin\Debug\informator.application
+C:\Users\bazunaka\Documents\GitHub\informator\informator\informator\bin\Debug\informator.exe
+C:\Users\bazunaka\Documents\GitHub\informator\informator\informator\bin\Debug\informator.pdb
+C:\Users\bazunaka\Documents\GitHub\informator\informator\informator\obj\Debug\informator.csprojAssemblyReference.cache
+C:\Users\bazunaka\Documents\GitHub\informator\informator\informator\obj\Debug\informator.csproj.CoreCompileInputs.cache
+C:\Users\bazunaka\Documents\GitHub\informator\informator\informator\obj\Debug\informator.exe.manifest
+C:\Users\bazunaka\Documents\GitHub\informator\informator\informator\obj\Debug\informator.application
+C:\Users\bazunaka\Documents\GitHub\informator\informator\informator\obj\Debug\informator.exe
+C:\Users\bazunaka\Documents\GitHub\informator\informator\informator\obj\Debug\informator.pdb

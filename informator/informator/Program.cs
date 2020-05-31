@@ -17,7 +17,7 @@ namespace informator
             OutputResult("Операционная система:", GetHardwareInfo("Win32_OperatingSystem", "Caption"));
             OutputResult("Серийный номер ПЭВМ:", GetHardwareInfo("Win32_BIOS", "SerialNumber"));
             OutputResult("Серийный номер ЖД:", GetHardwareInfo("Win32_DiskDrive", "SerialNumber")); 
-            OutputResult("Серийный номер ЖД:", GetHardwareInfo("Win32_DiskDrive", "SerialNumber"));
+            OutputResult("Аккаунт:", GetHardwareInfo("Win32_DesktopMonitor", "MonitorManufacturer"));
             Console.ReadKey();
         }
 
